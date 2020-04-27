@@ -76,39 +76,81 @@ img {
 
 /* MEDIA QUERIES */
 
-
 @media screen and (max-width: 419px)
   /* Media Queries General Rules */ {
   body{
+    background-color: #1D7874;
+    color: #ffffff;
     font-size: 1.2em;
+    line-height: 1.3em;
+
   }
+
+  body .container .grey {
+    background-color: #1d7874;
+  }
+
   body h1 {
-    font-size: 1.8em;
+    font-size: 1.7em;
   }
 
   body .row {
-    width: 100%;
-    margin-left:0;
-    margin-right:10%;
-    margin-top: 10%;
+    border-radius: 3%;
+    background-color: #104f55;
+    width: 90%;
+    margin: 5% 3%;
+    padding-top: 5%;
   }
 
   body img {
-    width: 40%;
-    height: 40%;
+    width: 20%;
+    height: 20%;
   }
-}
+
+  body #why, #steps, #lezioni {
+    background: #1d7874
+  }
+
   /* End of Media Queries General Rules */
 
   /* Media Queries Specify Section */
 
 @media screen and (max-width: 419px) {
+  /* Lezioni */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10%;
+  }
 
+  /* Steps */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    margin-bottom: 10%;
+    float: none;
+    width: 100%;
+  }
+
+/* Why */
+  #why .row {
+    padding: 5% 0%;
+  }
   #why .row img {
     width: 15%;
     height: 15%;
-
-
   }
-
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 5%;
+  }
+  #why .row hr {
+    margin: 7% 0%;
+  }
 }
+
+/* End of Media Queries Specify Section */
