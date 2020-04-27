@@ -74,20 +74,17 @@ img {
 
 
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES - SMARPTHONES / SMALL DEVICES*/
 
 @media screen and (max-width: 419px)
   /* Media Queries General Rules */ {
   body{
+    font-family: "Trebuchet MS", sans-serif;
     background-color: #1D7874;
     color: #ffffff;
     font-size: 1.2em;
     line-height: 1.3em;
 
-  }
-
-  body .container .grey {
-    background-color: #1d7874;
   }
 
   body h1 {
@@ -110,6 +107,8 @@ img {
   body #why, #steps, #lezioni {
     background: #1d7874
   }
+
+}
 
   /* End of Media Queries General Rules */
 
@@ -154,3 +153,103 @@ img {
 }
 
 /* End of Media Queries Specify Section */
+/* END OF MEDIA QUERIES - SMARTPHONES / SMALL DEVICES*/
+
+
+
+/* MEDIA QUERIES - TABLET / LARGE DEVICES*/
+@media screen and (min-width: 420px) and (max-width: 768px) {
+  /* Media Queries General Rules */
+  body{
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #1D7874;
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.3em;
+
+  }
+
+  body h1 {
+    font-size: 1.7em;
+  }
+
+  body hr {
+    display: none;
+  }
+
+  body h3 {
+    border-bottom: 1px solid grey;
+    width: 80%;
+    padding-bottom: 3%;
+  }
+
+  body .row {
+    border-radius: 3%;
+    background-color: #104f55;
+    width: 90%;
+    margin: 5% 3%;
+    padding: 3%;
+  }
+
+  body img {
+    width: 25%;
+    height: 25%;
+  }
+
+  body #why, #steps, #lezioni {
+    background: #1d7874
+  }
+}
+
+/* End of Media Queries General Rules */
+
+/* Media Queries Specify Section */
+
+@media screen and (min-width: 420px) and (max-width: 768px) {
+
+/* Lezioni */
+#lezioni .row .right
+{
+  width: 45%;
+  float: left;
+  padding-left: 1%;
+  text-align: center;
+}
+
+#lezioni .row .left {
+  padding-right: 1%;
+  width: 40%;
+  margin: auto;
+}
+
+}
+
+/* Steps */
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 30%;
+  margin-right: 2%;
+}
+
+/* Why */
+
+#why .row img {
+  width: 25%;
+  height: 25%;
+}
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 33%;
+  float: left;
+  margin-top: 5%;
+}
+#why .row hr {
+  margin: 7% 0%;
+}
+}
+
+/* End of Media Queries Specify Section */
+/* END OF MEDIA QUERIES - TABLET / LARGE DEVICES*/
