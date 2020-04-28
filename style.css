@@ -205,10 +205,12 @@ img {
 
 /* Media Queries Specify Section */
 
-@media screen and (min-width: 420px) and (max-width: 768px) {
+/* MEDIA QUERIES - TABLET / LARGE DEVICES*/ */
+
+/* @media screen and (min-width: 420px) and (max-width: 768px) {
 
 /* Lezioni */
-#lezioni .row .right
+/* #lezioni .row .right
 {
   width: 45%;
   float: left;
@@ -225,17 +227,17 @@ img {
 }
 
 /* Steps */
-#steps .row>.left,
+/* #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
   float: left;
-  width: 30%;
+  width: 32%;
   margin-right: 2%;
 }
 
 /* Why */
 
-#why .row img {
+/* #why .row img {
   width: 25%;
   height: 25%;
 }
@@ -247,9 +249,9 @@ img {
   margin-top: 5%;
 }
 #why .row hr {
-  margin: 7% 0%;
+  margin: 7% 0%; */
 }
 }
 
 /* End of Media Queries Specify Section */
-/* END OF MEDIA QUERIES - TABLET / LARGE DEVICES*/
+/* END OF MEDIA QUERIES - TABLET / LARGE DEVICES*/ */
